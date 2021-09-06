@@ -106,7 +106,7 @@ function tinhKetQua(){
                 arrNumber[arrNumber.length - 1] = arrNumber[0];
             }
             count = 1; //count = 1  de khong bi loop infinity khi an nhieu hon 1 dau "="
-            while (arrNumber.length > 1){  // 
+            while (arrNumber.length > 1 ){  // 
                 for(let i = 0; i < arrNumber.length; i++){
                     //for(let j = 0; j < arrNumber.length; j++){
                         calcuKQ(arrNumber[i], arrNumber[i-1], arrNumber[i+1], i)
