@@ -105,7 +105,8 @@ function tinhKetQua(){
             if (arrNumber[arrNumber.length - 1] == ""){
                 arrNumber[arrNumber.length - 1] = arrNumber[0];
             }
-            while (arrNumber.length > 1 && arrNumber[0] != ""){  // arNum[0] != "" de khong bi loop infinity
+            count = 1; //count = 1  de khong bi loop infinity khi an nhieu hon 1 dau "="
+            while (arrNumber.length > 1){  // 
                 for(let i = 0; i < arrNumber.length; i++){
                     //for(let j = 0; j < arrNumber.length; j++){
                         calcuKQ(arrNumber[i], arrNumber[i-1], arrNumber[i+1], i)
@@ -122,7 +123,7 @@ function tinhKetQua(){
         }     
         else if (count == 1){
             // Không thể + - 3 4 số nếu dùng push kiểu này
-                arrNumber.push(operator);
+                arrNumber.push(operator); //push operator de tinh ma chua lam duoc
                 arrNumber.push(resultKq);
                 console.log(arrNumber);
                 if (arrNumber[arrNumber.length - 1] == ""){
