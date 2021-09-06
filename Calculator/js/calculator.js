@@ -59,37 +59,37 @@ function calcuKQ(value, a, b, index){
             displayKq.value = parseFloat(a) + parseFloat(b);
             arrNumber.splice(index-1, 3, displayKq.value);
             operator = value;
-            count = 1;
+            //count = 1;
                 break;
         case "-":
             displayKq.value = parseFloat(a) - parseFloat(b);
             arrNumber.splice(index-1, 3, displayKq.value);
             operator = value;
-            count = 1;
+            //count = 1;
                 break;
         case "x":
             displayKq.value = parseFloat(a) * parseFloat(b);
             arrNumber.splice(index-1, 3, displayKq.value);
             operator = value;
-            count = 1;
+            //count = 1;
                 break;
         case "÷":
             displayKq.value = parseFloat(a) / parseFloat(b);
             arrNumber.splice(index-1, 3, displayKq.value);
             operator = value;
-            count = 1;
+            //count = 1;
                 break;
         case "%":
             displayKq.value = parseFloat(a) / 100;
             arrNumber.splice(index-1, 3, displayKq.value);
             //operator = value;
-            count = 1;
+            //count = 1;
                 break;
         case "^":
             displayKq.value = parseFloat(a)**parseFloat(b);
             arrNumber.splice(index-1, 3, displayKq.value);
             //operator = value;
-            count = 1;
+            //count = 1;
                 break;
     }
 }
