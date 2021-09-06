@@ -1,41 +1,5 @@
-/*
-*{
-    margin: 0px;
-    padding: 0px;
- }
+
  
- .button{
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
-    margin: 2px;
-    position: relative;
-    box-shadow: 0 2px rgba(0,0,0,0.1);
- }
-
-.button:hover{
-    background-color: #ecc8c9;
-    color:black;
-}
-
- .ketqua{
-     width: 220px;
-     height: 35px;
-     margin: 10px;
-     direction:RTL;
-     font-size: 20px;
-     
- }
-
- .container{
-     margin: auto;
-     background-color: #a0b3a8;
-     width: 240px;
-     height: 335px;
-     text-align: center;
-     border-radius: 4px;
- }
- */
 
  *{
     margin: 0px;
